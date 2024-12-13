@@ -3,5 +3,5 @@ id: string;
 name: string;
 email: string;
 phone: string;
-favourite: string;
+favorite: string;
 }
