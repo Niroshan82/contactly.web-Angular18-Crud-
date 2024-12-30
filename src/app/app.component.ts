@@ -59,4 +59,6 @@ export class AppComponent {
   private getContacts(): Observable<Contact[]>{
   return this.http.get<Contact[]>('https://localhost:7056/api/Contacts');  
   }
+
+  Test='076-8411-957';
 }

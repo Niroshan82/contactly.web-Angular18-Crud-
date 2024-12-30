@@ -18,7 +18,10 @@
 
     <div class="mt-2">
       <label for="phone" class="font-bold">Phone</label>
-      <input type="text" class="w-full p-2 border-2 rounded-sm mt-2" formControlName="phone">
+      <input type="text" [(ngModel)]="Test"   class="w-full p-2 border-2 rounded-sm mt-2" formControlName="phone">
+      <div [innerText]='Test'>
+      </div>
+      {{Test}}
     </div>
 
     <div class="mt-2">
